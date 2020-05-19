@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  background-color: #EAEDF0;
+}
+
+.pageHeader {
+  height: 20%;
+  margin:0 2% 2% 2%;
+  border-radius: 0px 0px 15px 15px;
+  padding: 2%;
+  background-color: white;
+  display: block;
+  box-shadow: 3px 3px 3px #7F7F7F ;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: #4a4a4a
+}
+
+h2 {
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #4a4a4a
+}
+.container {
+  height:78%;
+  margin:0 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.text-area {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  margin-left: 2%;
+  justify-content:space-around;
+  flex-direction: column;
+}
+
+.links {
+  width: 30%;
+  height:100%;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+}
+
+.box {
+  border-radius: 15px;
+  background: white;
+  margin-bottom: 2%;
+  padding: 2%;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px #7F7F7F;
+}
+
+ h3 {
+    color: #4a4a4a;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#description p, #participation p {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+#explanation h3, #benefits h3 {
+    margin-left: 100px;
+}
+
+#summary p, #explanation p, #benefits p {
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+ul {
+    margin:         0.75em 0;
+    padding:        0 2em;
+    list-style: none;
+}
+
+li {
+    border-bottom:1px dashed #7F7F7F;
+    padding-bottom: 1.5%;
+    
+}
+.pink {
+  color:deeppink;
+}
+li:before {
+    content: "";
+    border-color: transparent deeppink;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    top: 0.9em;
+    left: -1em;
+    position: relative;
+}
